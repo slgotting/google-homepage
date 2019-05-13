@@ -1,0 +1,1 @@
+Things I've learned that have helped me with this project are some basic HTML and CSS, as well as quickly being able to debug by using Chrome's DevTools.
