@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: arial,sans-serif;
+ }
+
+.navbar {
+    line-height: 40px;
+    height: 70px;
+}
+
+.navbar-left {
+    padding: 10px;
+    float: left;
+}
+
+.navbar-right {
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+    display: inline;
+}
+
+
+a {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    opacity: 75%;
+}
+
+.footer {
+    background-color: rgb(255, 252, 231);
+    border-top: 1px solid rgb(212, 212, 212);
+    line-height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.fl {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.fr {
+    float:right;
+    margin-right: 20px;
+}
+
+.sign-in {
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 2px;
+    line-height: 28px;
+    padding: 0 12px;
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active, a:visited, a:hover, a:link {
+    color: black;
+}
+
+
+.center-block {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#search-input {
+    border-radius: 30px;
+    height: 40px;
+    width: 482px;
+    border: 1px solid rgb(199, 199, 199);
+    opacity: 75%;
+}
+
+#search-input:hover, #search-input:focus {
+    box-shadow: 0px 1px 6px lightgrey;
+    outline: none;
+    text-indent: 20px;
+}
+
+#main-img {
+    width: 450px;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+#search-btns {
+    width: 65%;
+    margin: 0 auto; 
+}
+
+.search-btn {
+    border-radius: 3px;
+    color: rgb(83, 83, 83);
+    background-color: rgb(240, 240, 240);
+    border: 1px solid white;
+    cursor: pointer;
+    height: 40px;
+    min-width: 54px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    text-align: center;
+    margin: 11px 4px;
+}
+
+.search-btn:hover {
+    border: 1px solid rgb(150, 150, 150);
+}
